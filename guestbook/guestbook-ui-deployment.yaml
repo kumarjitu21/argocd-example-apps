@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: kumarjitu21/microservice-docker-example:v2.0.0
+      - image: kumarjitu21/microservice-docker-example:v2.0.1
         name: guestbook-ui
         ports:
         - containerPort: 8080
